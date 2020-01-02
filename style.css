@@ -1,0 +1,197 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header{
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  padding-bottom: 2%;
+}
+.lucifer_logo{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  padding-top: 15px;
+}
+.h4k-lone img{
+	width: 250px;
+	height: auto;
+	border-radius: 50%;
+	margin-left: 22%;
+}
+.h4k-lone img:hover {
+	box-shadow: 0px 0px 30px #0AB5F0;
+	transition: .5s;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.h4k-lone {
+	margin-left: 24%;
+	margin-right: 25%;
+	margin-top: 8%;
+	margin-bottom: 0%;
+	border: 0px solid grey;
+	padding-left: 90px;
+	padding-right: 10px;
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+.h4k-lone:hover {
+  -webkit-box-shadow: 0 0 30px #0AB5F0 ;
+  box-shadow: 0 0 30px #0AB5F0 ;
+  transition: .5s;
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+.h4k-lone-name-para {
+   font-family: 'Raleway', sans-serif;
+   margin-top: 3%;
+   margin-left: 35%;
+   margin-bottom: 2%;
+   letter-spacing: 1px;
+   text-decoration: none;
+}
+.column {
+  float: left;
+  width: 7%;
+  margin-left: 12%;
+  margin-top: 3%;
+}
+.column img:hover {
+  -webkit-box-shadow: 0 0 30px teal;
+  box-shadow: 0 0 30px teal;
+  transition: .5s;
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); 
+  cursor: pointer;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.lone-site-link {
+   font-family: 'Quicksand', sans-serif;
+   margin-bottom: 0%;
+   margin-left: 23%;
+   margin-top: 10%;
+   font-weight: bold;
+   letter-spacing: 1px;
+   text-decoration: none;
+}
+.lone-site-link a {
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.lone-site-link a:hover {
+  color: green;
+  -webkit-box-shadow: 0 0 40px teal;
+  box-shadow: 0 0 30px teal;
+  transition: .5s;
+}
+.h4k-kid img{
+	width: 250px;
+	height: auto;
+	border-radius: 50%;
+	margin-left: 22%;
+}
+.h4k-kid img:hover {
+	box-shadow: 0 0 30px #0AB5F0;
+	transition: .5s;
+   -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.h4k-kid {
+	margin-left: 24%;
+	margin-right: 25%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border: 0px solid grey;
+	padding-left: 90px;
+	padding-right: 10px;
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+.h4k-kid:hover {
+  -webkit-box-shadow: 0 0 30px #0AB5F0;
+  box-shadow: 0 0 30px #0AB5F0;
+  transition: .5s; 
+   -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+.h4k-kid-name-para {
+   font-family: 'Raleway', sans-serif;
+   margin-top: 3%;
+   margin-left: 36%;
+   margin-bottom: 2%;
+   letter-spacing: 1px;
+   text-decoration: none;
+}
+.column-kid {
+  float: left;
+  width: 7%;
+  margin-left: 12%;
+  margin-top: 3%;
+}
+.column-kid img:hover {
+  -webkit-box-shadow: 0 0 30px teal;
+  box-shadow: 0 0 30px teal;
+  transition: .5s;
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); 
+  cursor: pointer;
+}
+/* Clearfix (clear floats) */
+.row-kid::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.kid-site-link {
+   font-family: 'Quicksand', sans-serif;
+   margin-bottom: 5%;
+   margin-left: 21%;
+   margin-top: 10%;
+   font-weight: bold;
+   letter-spacing: 1px;
+   text-decoration: none;
+}
+.kid-site-link a {
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.kid-site-link a:hover {
+  color: green;
+  -webkit-box-shadow: 0 0 40px teal;
+  box-shadow: 0 0 30px teal;
+  transition: .5s;
+}
+.mobile-edition {
+  font-family: 'Quicksand', sans-serif;
+  opacity: 0;
+  display: none;
+}

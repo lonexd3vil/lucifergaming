@@ -1,19 +1,19 @@
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 420px) {
 	.h4k-lone img{
-		margin-left: 7%;
+		margin-left: 10%;
 	}
 	.h4k-lone-name-para {
-		margin-left: 31%;
+		margin-left: 30%;
 	}
 	.lone-site-link {
-		margin-left: 5%;
+		margin-left: 20%;
 	}
 	.lone-site-link a {
-		padding-left: 50px;
-		padding-right: 50px;
+		padding-left: 60px;
+		padding-right: 60px;
 	}
 	.h4k-kid img{
-		margin-left: 7%;
+		margin-left: 10%;
 		margin-top: 30%;
 	}
 	.h4k-kid-name-para {
@@ -21,66 +21,10 @@
 	}
 	.kid-site-link {
 		font-size: 15px;
-		margin-left: 1%;
+		margin-left: 17%;
 	}
 	.kid-site-link a {
-		padding-left: 45px;
-		padding-right: 45px;
-	}
-}
-@media only screen and (max-width: 480px) {
-	.h4k-lone img {
-		margin-left: 20%;
-	}
-	.h4k-lone-name-para {
-		margin-left: 37%;
-	}
-	.lone-site-link {
-		margin-left: 25%;
-	}
-	.lone-site-link a {
-		padding-left: 60px;
-		padding-right: 60px;
-	}
-	.h4k-kid img {
-		margin-left: 20%;
-	}
-	.h4k-kid-name-para {
-		margin-left: 39%;
-	}
-	.kid-site-link {
-		margin-left: 20%;
-	}
-	.kid-site-link a{
-		padding-left: 65px;
-		padding-right: 65px;
-	}
-}
-@media only screen and (max-width: 716px) {
-	.h4k-lone img {
-		margin-left: 30%;
-	}
-	.h4k-lone-name-para {
-		margin-left: 41%;
-	}
-	.lone-site-link {
-		margin-left: 32%;
-	}
-	.lone-site-link a {
-		padding-left: 67px;
-		padding-right: 67px;
-	}
-	.h4k-kid img {
-		margin-left: 30%;
-	}
-	.h4k-kid-name-para {
-		margin-left: 42%;
-	}
-	.kid-site-link {
-		margin-left: 32%;
-	}
-	.kid-site-link a {
-		padding-left: 67px;
-		padding-right: 67px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 }
